@@ -1,0 +1,71 @@
+body{
+background-color: rgb(255, 255, 255);
+
+}
+nav{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+nav a{
+ margin: 10px;
+ font-size: large;
+ color: rgb(255, 22, 22);
+ text-decoration: none;
+ font-weight:bold;
+ display: inline-block;
+}
+nav a:hover{
+   transform: scale(1.50);
+    
+}
+header{
+    background-color: rgb(99, 99, 255);
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    padding: 5px;
+}
+.ao{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-color: black;
+    margin: 10px;
+    border: 4px solid black;
+
+    
+}
+.me{
+   
+   /* border: 4px solid violet; */
+   margin: 25px;
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.4);
+   
+   
+  
+   
+   
+}
+.me .mi{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    margin: 0%;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.me .mi:hover{
+   transform: scale(1.1);
+
+}
